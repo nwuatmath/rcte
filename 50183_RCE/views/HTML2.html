@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Craft your research question</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);" />
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/main.css" />
+    <link rel="stylesheet" href="/static/css/font-awesome.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="tool-header">
+                    <h1 class="tool-title"> Craft your research question</h1>
+                    <div class="intro">
+                        <p>
+                            Your research question will drive the rest of your study. A good question has three building
+                            blocks, which we call the "A, B, C's". Click on sections A through C below to see examples, read a
+                            description, and build your own question, piece by piece. In section D, learn what kinds of answers
+                            you can expect from your study, and plan how they'll inform the decision you want to make.
+                        </p>
+                    </div>
+                </div>
+                <div class="tool-help">
+                    <div class="blue-print">
+                        <h3>The blue print: Does <b>a</b> do <b>b</b> among <b>c</b>?</h3>
+                        <p><i>Want to compare two interventions? Test how a tool is used, rather than "tool vs. no tool". Hover over the bullets to see an example question.</i></p>
+                        <ul>
+                            <li>Tool A versus tool B</li>
+                            <li>With training versus without</li>
+                            <li>This tool vs. this tool with a new feature</li>
+                        </ul>
+                        <p><b>Does one semester of daily use of DreamBox Learning, instead of one semester of daily use of ST Math, increase student achievement on the SBAC among 6th graders?</b></p>
+                    </div>
+                    <div class="tool-example">
+                        <p><b>Examples from other educators</b><br><i><b>"Does a semester using First in Math<sup>&copy;</sup> improve achievement on the 4Sight Math benchmark test among 4th graders?"</b><br>&mdash;Matthew Brown, Newark Public Schools</i></p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="tool-instructions">
+                <p>
+                    <b>Instructions:</b> Does one month of daily use of DreamBox Learning during an afterschool
+                    program increase achievement on the Smarter Balanced math interim assessment
+                    among 6th grade students who were not proficient on last Spring's
+                    statewide math assessment?
+                </p>
+                <p><b>Your Question:</b> Answer the 3 questions below to see an automatically generated research question here.</p>
+            </div>
+        </div>
+        <div class="tool-questions">
+            <div class="row">
+                <div class="col-xs-7">
+                    <h2 class="step-header-question">A. What are you testing? </h2>
+                    <div class="step-subquestion">
+                        <p>What is the name of the app you are testing?</p>
+                    </div>
+                    <div class="step-action">
+                        <textarea id="q1" placeholder="Ex., Odyssey Pathblazer Reading"></textarea>
+                    </div>
+                    <div class="step-subquestion">
+                        <p>What is the duration of the intervention?</p>
+
+                    </div>
+                    <div class="step-action">
+                        <textarea id="q4" placeholder="Ex., Nine months"></textarea>
+                    </div>
+
+                    <h2 class="step-header-question">B. What is the intended effect? </h2>
+                    <div class="step-subquestion">
+                        <p>What is the outcome of interest?</p>
+                    </div>
+                    <div class="step-action">
+                        <select required name="q11">
+                            <option value="">Student achievement</option>
+                            <option value="">Teacher performance</option>
+                            <option value="">Comprehension</option>
+                        </select>
+                    </div>
+                    <div class="step-subquestion">
+                        <p>What measure will you use to test whether there was an effect?</p>
+
+                    </div>
+                    <div class="step-action">
+                        <textarea id="q12" placeholder="Ex., PARCC reading interim assessment"></textarea>
+                    </div>
+                    <div class="step-subquestion">
+                        <p>What is the direction of intended change?</p>
+
+                    </div>
+                    <div class="step-action">
+                        <select required name="q12a">
+                            <option value="">Increase</option>
+                            <option value="">Decrease</option>
+                        </select>
+                    </div>
+                    <h2 class="step-header-question">C. Who are the users? </h2>                
+                    <div class="step-action">
+                        <textarea id="q5" placeholder="Ex., 6th grade students"></textarea>
+                    </div>
+                   
+                    <h2 class="step-header-question"> D. What will you do with your answer? </h2>
+                    <div class="step-subquestion">
+                        <p>Yes, the evidence suggests that it is likely that use of [q1] [q12a] [q11] on [q12] among [q5]</p>
+                    </div>
+                    <div class="step-action">
+                        <textarea id="ans1" placeholder="Enter your answer here (e.g., roll out dreambox to all students in grades 3-5)"></textarea>
+                    </div>
+                    <div class="step-subquestion">
+                        <p>No, the evidence suggests that it is not likely that the use of [q1] [q12a] [q11] on [q12] among [q5]</p>
+
+                    </div>
+                    <div class="step-action">
+                        <textarea id="ans2" placeholder="Enter your answer here (e.g., not renew our dreambox license for the next school year)"></textarea>
+                    </div>
+                    <div class="step-subquestion">
+                        <p>More data are needed to reach a strong conclusion</p>
+
+                    </div>
+                    <div class="step-action">
+                        <textarea id="ans0" placeholder="Enter your answer here."></textarea>
+                    </div>
+                    <!--(Add all sub questions and actions before adding next  divs)-->
+                    <!--A section -->
+
+                </div> <!-- end section A -->
+
+              
+                <div class="col-xs-5">
+                    <div class="step-to-consider">
+                        <!--(Add to consider text here in any format (e.g. paragraph or list)-->
+                        <p>Be specific! "What are you testing?" can be broken down into three components:</p>
+                        <ul>
+                            <li>The name of the technology you're testing</li>
+                            <li>How often users are using it during your study, and for how long (the 'dosage')</li>
+                            <li>The way in which it's being implemented, e.g. in small groups versus independently</li>
+                        </ul>
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="step1example">See Example</button>
+                        <!--(Button data-target should be = to the id of the example content below.)-->
+                        <div id="step1example" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Example</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="step-example-box">
+                                            <p><b>Examples from other educators</b><br><i><b>"Does a semester using First in Math<sup>&copy;</sup> improve achievement on the 4Sight Math benchmark test among 4th graders?"</b><br>&mdash;Matthew Brown, Newark Public Schools</i></p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-to-consider">
+                        <p>
+                            Note the direction of the intended change (e.g. increase), and the measure
+                            you plan to use to test whether there was an effect. Use the first drop down to
+                            select increase or decrease and the second to select the desired outcome.
+                        </p>
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="step1example">See Example</button>
+                        <!--(Button data-target should be = to the id of the example content below.)-->
+                        <div id="step1example" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Example</h4>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div class="step-example-box">
+                                            <p><b>Examples from other educators</b><br><i><b>"Does a semester using First in Math<sup>&copy;</sup> improve achievement on the 4Sight Math benchmark test among 4th graders?"</b><br>&mdash;Matthew Brown, Newark Public Schools</i></p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-to-consider">
+                        <p>
+                            It is important to name the measure that will be used when testing a tool's effects, if possible.
+                            In the case of an intervention for teachers (e.g. additional training),
+                            be clear whether the effect you want to measure is on the direct users of the
+                            intervention (teachers) or someone else (e.g. students). If you have a particular
+                            subgroup of students, teachers or schools in mind, e.g. English learners,
+                            include this in the research question.
+                        </p>
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="step1example">See Example</button>
+                        <!--(Button data-target should be = to the id of the example content below.)-->
+                        <div id="step1example" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Example</h4>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div class="step-example-box">
+                                            <p><b>Examples from other educators</b><br><i><b>"Does a semester using First in Math<sup>&copy;</sup> improve achievement on the 4Sight Math benchmark test among 4th graders?"</b><br>&mdash;Matthew Brown, Newark Public Schools</i></p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-to-consider">
+                        <p>
+                            Because a well-designed evaluation aims to provide a clear answer to the precise question it was
+                            designed to address, it is important to confirm with evaluation stakeholders that the question
+                            captures a learning objective that can usefully inform decisions and actions.
+                        </p>
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="step1example">See Example</button>
+                        <!--(Button data-target should be = to the id of the example content below.)-->
+                        <div id="step1example" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Example</h4>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div class="step-example-box">
+                                            <p><b>Examples from other educators</b><br><i><b>"Does a semester using First in Math<sup>&copy;</sup> improve achievement on the 4Sight Math benchmark test among 4th graders?"</b><br>&mdash;Matthew Brown, Newark Public Schools</i></p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+C:\Users\nwu\documents\visual studio 2015\Projects\50183_RCE\50183_RCE\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\nwu\documents\visual studio 2015\Projects\50183_RCE\50183_RCE\obj\Debug\50183_RCE.njsprojResolveAssemblyReference.cache
